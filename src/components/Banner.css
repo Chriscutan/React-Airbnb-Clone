@@ -1,0 +1,50 @@
+.banner{
+    height: 50vh;
+    position: relative;
+    background: url("https://imgs.search.brave.com/k_GQrXeAuz05ss67BGrZRW9BXBG9cmGZ5R_7tn2kdag/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly93d3cu/YWlydGFza2VyLmNv/bS9ibG9nL3dwLWNv/bnRlbnQvdXBsb2Fk/cy8yMDE4LzExL3dl/Yi0yMDMtS2VudC1T/dC1BaXJibmItaW50/ZXJpb3Itc3R5bGlz/aC1saXZpbmctcm9v/bS5qcGc") center center;
+
+}
+
+.banner__info{
+    background-color: black;
+    color: white;
+    padding-top: 25vh;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+    width: 300px;
+}
+
+.banner__info > button{
+    background-color: #ff7779;
+    color: white;
+    text-transform: inherit;
+    border: none;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.banner__info > button:hover{
+    background-color: white;
+    color: #ff7779;
+    outline: none;
+    border: none;
+}
+
+.banner__info > h5{
+    margin-top: 10px;
+}
+
+.banner__searchButton{
+    background-color: white !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    color: #ff7779 !important;
+    border: none !important;
+    outline: none !important;
+}
+
+.banner__search{
+    display: flex;
+    flex-direction: column;
+}
